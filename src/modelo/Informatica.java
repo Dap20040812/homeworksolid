@@ -6,6 +6,6 @@ import java.util.Arrays;
 public class Informatica extends Estudiante{
     public Informatica(String nombre) {
 
-        super(nombre,new ArrayList<>(Arrays.asList("cuaderno","esfero")),"Alguien manda Saludos","Programacion, Arquitectura, Base de datos");
+        super(nombre,new ArrayList<>(Arrays.asList("Computador","Mouse")),"Jenny manda Saludos","Programacion, Arquitectura, Base de datos");
     }
 }

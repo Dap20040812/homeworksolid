@@ -7,13 +7,18 @@ import java.util.ArrayList;
 
 public class EnvioMaterial {
 
+    private Email interfaz;
+    private Envio envio;
+
+    public EnvioMaterial(Email interfaz,Envio envio) {
+        this.interfaz = interfaz;
+        this.envio = envio;
+    }
+
     public void enviarMaterialEstudiante(Estudiante estudiante) {
 
-            Envio envio = new Envio();
-            envio.material = new ArrayList<>();
             envio.material = estudiante.materiales;
             envio.saludoDirector = estudiante.saludoDirector;
-            EmailOutlook email = new EmailOutlook();
-            email.enviarEmail(envio);
+            interfaz.enviarEmail(envio);
     }
 }

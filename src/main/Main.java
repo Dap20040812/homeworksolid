@@ -1,6 +1,7 @@
 package main;
 
 import modelo.*;
+import service.EmailOutlook;
 import service.EnvioMaterial;
 
 public class Main {
@@ -11,7 +12,7 @@ public class Main {
                 new Industrial("Liliana")
         };
         verMateriasEstudiantes(listadoEstudiantes);
-        EnvioMaterial material = new EnvioMaterial();
+        EnvioMaterial material = new EnvioMaterial(new EmailOutlook(),new Envio());
         material.enviarMaterialEstudiante(new Informatica("Daniel"));
         EstudianteBD bd = new EstudianteBD();
         bd.guardarEstudiante(listadoEstudiantes[0]);
