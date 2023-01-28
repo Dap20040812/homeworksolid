@@ -1,9 +1,6 @@
 package main;
 
-import modelo.Administración;
-import modelo.Estudiante;
-import modelo.Industrial;
-import modelo.Informatica;
+import modelo.*;
 import service.EnvioMaterial;
 
 public class Main {
@@ -16,6 +13,8 @@ public class Main {
         verMateriasEstudiantes(listadoEstudiantes);
         EnvioMaterial material = new EnvioMaterial();
         material.enviarMaterialEstudiante(new Informatica("Daniel"));
+        EstudianteBD bd = new EstudianteBD();
+        bd.guardarEstudiante(listadoEstudiantes[0]);
     }
 
     public static void verMateriasEstudiantes(Estudiante[] estudiantes) {

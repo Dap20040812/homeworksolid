@@ -18,9 +18,4 @@ public abstract class Estudiante {
         this.materias = materias;
     }
 
-
-    /*void guardarEstudiante() {
-        System.out.println("Guardando estudiante en base de datos");
-    }*/
-
 }

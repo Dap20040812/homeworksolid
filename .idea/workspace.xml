@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d82aacdb-eab1-41f4-9288-7ad893db3d60" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/modelo/Administración.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/Industrial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/Informatica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modelo/GaurdarBD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/Envio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Envio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Estudiante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/EmailOutlook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/EmailOutlook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/EnvioMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/EnvioMaterial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -41,17 +35,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/diego/OneDrive - Universidad de la Sabana/Arquitectura de Software/homeworksolid",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/diego/OneDrive - Universidad de la Sabana/Arquitectura de Software/homeworksolid&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
